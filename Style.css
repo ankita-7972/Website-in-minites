@@ -458,14 +458,6 @@ button {
     align-items: center;
     margin-bottom: 4rem;
 }
-
-/* .profile {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 4rem !important;
-} */
-
 .subpro1 {
     height: 615px !important;
     width: 461px !important;
@@ -733,12 +725,6 @@ button{
     font-size: 12px;
     font-weight: 600;
 }
-/* .submain3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 40px;
-} */
 #subm{
     display: flex;
     justify-content: center;
@@ -780,6 +766,7 @@ button{
     padding: 22px;
     font-family: 'Times New Roman', Times, serif;
     color: #000000;
+    width: 29dvw !important;
 }
 
 .Component6 {
@@ -1601,9 +1588,10 @@ button{
         padding-bottom: 0px;
     }
     .photoinfo p {
-        font-size: 12px;
+        font-size: 14px;
         padding: 3px;
         margin: 0px;
+        width: 48dvw !important;
     }
     .submain4 {
         padding: 0px;
@@ -1807,6 +1795,7 @@ button{
     .mainsub {
         height: auto;
         width: 100%;
+        margin-top: 0rem !important;
     }
     .text_1 h2 {
         font-size: 25px;
@@ -1818,6 +1807,7 @@ button{
 
     .submain2 {
         flex-direction: column;
+        margin-bottom: 1rem !important;
     }
 
     .div1 {
@@ -1837,7 +1827,8 @@ button{
     }
 
     #input_icon {
-        font-size: 14px;
+        font-size: 13.5px;
+        padding: 9.2px;
     }
     .bigtext h1 {
         font-size: 21px;
@@ -1845,6 +1836,7 @@ button{
 
     .profile {
         flex-direction: column;
+        margin-bottom: 1rem !important;
     }
 
     .subpro1 img {
@@ -1878,6 +1870,7 @@ button{
 
     .submainchild1 {
         flex-direction: column;
+        margin-bottom: 1rem !important;
     }
     #subtext{
         align-items: center;
@@ -1889,8 +1882,8 @@ button{
         margin-left: 0px;
     }
     .block1{
-        height: 410px;
-        width: 260px;
+        height: 305px;
+        width: 309px;
         align-items: center;
     }
     .rtext{
@@ -1954,7 +1947,7 @@ button{
     }
     .photoinfo p {
         font-size: 12px;
-        width: 93dvw;
+        width: 74dvw !important;
         padding: 3px;
         margin: 0px;
     }
@@ -1963,8 +1956,9 @@ button{
     }
 
     .text_big2 p {
-        font-size: 16px;
+        font-size: 13px;
         padding-top: 8px;
+        line-height: 21px;
     }
     .lineimg{
         height: 5px;
