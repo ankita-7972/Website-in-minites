@@ -1503,7 +1503,7 @@ button{
     }
 
     .subpro1 {
-        height: 428px !important;
+        height: 445px !important;
         width: 347px !important;
     }
 
@@ -1536,8 +1536,8 @@ button{
         margin-left: 0px;
     }
     .block1{
-        height: 490px;
-        width: 330px;
+        height: 339px;
+        width: 300px;
         align-items: center;
     }
     .rtext{
@@ -1679,7 +1679,7 @@ button{
         padding-bottom: 8px;
         line-height: 24px;
         margin-left: 0rem;
-        padding: .5px;
+        padding: .5px !important;
         
     }
     
@@ -1854,7 +1854,7 @@ button{
     }
 
     .subpro1 {
-        height: 470px !important;
+        height: 500px !important;
        width: 254px !important;
     }
 
@@ -1954,6 +1954,7 @@ button{
     }
     .photoinfo p {
         font-size: 12px;
+        width: 93dvw;
         padding: 3px;
         margin: 0px;
     }
@@ -2023,7 +2024,7 @@ button{
 
     .qtext h1 {
         font-size: 20px;
-        padding: .5px !important;
+        padding: 10px !important;
         
     }
 
@@ -2033,7 +2034,7 @@ button{
         padding-bottom: 8px;
         line-height: 24px;
         margin-left: 0rem;
-        padding: .5px;
+        padding: 10px !important;
         
     }
     
