@@ -1,0 +1,2060 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+.Component{
+    padding: 10px;
+    display: none;
+}
+.Component1 {
+    background-color: rgb(36, 35, 35);
+    padding: 10px;
+}
+
+.mainsub {
+    margin-top: 2rem ;
+    background-color: black;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.sub {
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+.sub span{
+    font-size: 25px;
+    padding-top: 1rem !important;
+    text-align: center;
+}
+
+p {
+    font-size: 50px;
+    color: yellow;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.p1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 27px;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.img img{
+    text-align: center;
+    margin-bottom: 20px;
+    height: 26vw;
+    width: 50vw;
+}
+
+.btn {
+    background-color: red;
+    height: 9vw !important;
+    width: 35vw !important;
+    border: none;
+    border-radius: 5px;
+    padding: 20px !important;
+    margin: auto;
+    display: grid;
+    margin-top: 2rem !important;
+}
+button {
+    height: 50px !important;
+    width: 59px !important;
+    font-size: 1.5rem !important;
+}
+
+
+.btn h1 {
+    font-size: 29px;
+    background: none;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn p {
+    background: none;
+    color: rgb(222, 219, 219);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+.btn p span {
+    text-decoration: line-through;
+}
+
+.text p {
+    text-align: center;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px;
+    font-size: 33px;
+    margin-top: 10px;
+}
+
+.text b {
+    color: red;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.countdown {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    overflow: hidden;
+    transform: scale(2);
+    padding: 10px;
+    margin-top: 50px;
+
+}
+
+.container h2 {
+    color: yellow;
+}
+
+#clock {
+    height: 40px;
+    width: 200px;
+    background-color: #403f3f;
+    box-shadow: 0 0 2px 2px #fff;
+}
+
+.Time {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+
+.Tday {
+    margin-top: 20px;
+}
+
+.Tday span {
+    color: #1d1c1c;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+#time {
+    font-size: 18px;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 44px;
+    margin-right: 2px;
+}
+
+.heading {
+    background: none;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+    margin-top: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    letter-spacing: 5px;
+}
+
+.heading_text p {
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.heading_text p b {
+    color: yellow;
+}
+
+.heading_text p {
+    margin-left: 14%;
+    letter-spacing: 1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    padding: 5px;
+
+}
+
+.white_input {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    height: 170px;
+    width: 85%;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    border-radius: 10px;
+    border: none;
+    gap: 20%;
+}
+
+
+.type1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.type1 p {
+    font-size: 46px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.type1 b {
+    font-size: 30px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.text_1 {
+    color: #fff;
+    font-size: 46px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+
+}
+
+.text_1 h2 {
+    font-size: 40px;
+}
+
+.text_1 span {
+    color: yellow;
+}
+
+.text_1 p {
+    color: yellow;
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+}
+
+.Component2 {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.countdown {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    overflow: hidden;
+    transform: scale(2);
+    padding: 10px;
+    margin-top: 50px;
+
+}
+
+.container h2 {
+    color: yellow;
+}
+
+#clockob {
+    height: 40px;
+    width: 200px;
+    background-color: #262525;
+    box-shadow: 0 0 2px 2px #232323;
+}
+
+.Time {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.Tday {
+    margin-top: 20px;
+}
+
+.Tday span {
+    color: #1d1d1d;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.submain2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+.div1 {
+    height: 350px;
+    width: 500px;
+    background-color: rgb(239, 234, 234);
+    margin: 15px;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.h1tag {
+    color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    text-align: center;
+}
+
+#icon {
+    font-size: 40px;
+    padding: 5px;
+    padding-top: 10px;
+    border: 0px solid #000000;
+    color: #00bf72;
+    display: flex;
+    justify-content: center;
+}
+
+.div1 p {
+    color: #000000;
+    line-height: 1.2;
+    font-weight: 500;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#input_icon {
+    padding: 7px;
+    margin: auto !important;
+    display: flex;
+    justify-content: center !important;
+    text-align: center !important;
+    height: 44px;
+    width: 45%;
+    background-color: red;
+    background-image: none;
+    color: #fff;
+    border: 1px solid #000000;
+    border-radius: 5px 5px 5px 5px;
+    font-size: 21px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#text_2 {
+    color: #000000;
+}
+
+#time1 {
+    color: #000000;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 44px;
+    margin-right: 2px;
+}
+
+.Component3 {
+    background-image: url(bimg.png);
+}
+
+.countdown {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    overflow: hidden;
+    transform: scale(2);
+    padding: 10px;
+    margin-top: 50px;
+
+}
+
+.container h2 {
+    color: yellow;
+}
+
+#clockobj {
+    height: 40px;
+    width: 200px;
+    background-color: #262525;
+    box-shadow: 0 0 2px 2px rgb(24, 24, 24)
+}
+
+.Time {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.Tday {
+    margin-top: 20px;
+}
+
+.Tday span {
+    color: #232222;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.bigtext h1 {
+    font-size: 60px;
+    font-weight: 850;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 30px;
+}
+
+.lineimg img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90px;
+    height: 7px;
+    padding: 10px;
+}
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+/* .profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem !important;
+} */
+
+.subpro1 {
+    height: 615px !important;
+    width: 461px !important;
+    background-color: #f9f7f7;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 10px rgb(232, 232, 232);
+    padding-bottom: 20px;
+}
+
+.subpro1 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 32% !important;
+    width: 40% !important;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.subpro1 h1 {
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.subpro1 p {
+    font-size: 23px;
+    line-height: 2.2rem !important;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #000000;
+    letter-spacing: 2px;
+}
+
+.subpro1 p span {
+    background-color: yellow;
+}
+
+#btn_Time1 {
+    margin-bottom: 60px;
+}
+
+.text_big h2 {
+    color: #fff;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.text_big p {
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: yellow;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.text_big h2 span {
+    color: yellow;
+}
+
+.Component4 {
+    background-color: #fff;
+    padding-bottom: 20px;
+}
+
+.countdown {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    overflow: hidden;
+    transform: scale(2);
+    padding: 10px;
+    margin-top: 50px;
+
+}
+
+.container h2 {
+    color: yellow;
+}
+
+#clockobject {
+    height: 40px;
+    width: 200px;
+    background-color: #262525;
+    box-shadow: 0 0 2px 2px #262626;
+}
+
+.Time {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.Tday {
+    margin-top: 20px;
+}
+
+.Tday span {
+    color: #262525;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+
+.submainchild1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block1 {
+    height: 350px;
+    width: 750px;
+    background-color: rgb(233, 230, 230);
+    padding: 30px;
+    margin-top: 20px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+.submainchild2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem !important;
+}
+
+#subtext {
+    display: flex;
+    justify-content: center;
+
+}
+
+.rsign img {
+    height: 50px;
+    width: 50px;
+    margin-left: 50px;
+}
+
+.rtext {
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.rtext p {
+    padding-top: 10px;
+    font-size: 23px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #000000;
+    line-height: 32px;
+    letter-spacing: 1px;
+}
+
+.rtext span {
+    color: red;
+}
+
+.text_big1 h2 {
+    color: #fff;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.text_big1 p {
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: yellow;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.text_big1 h2 span {
+    color: yellow;
+}
+
+.Component5 {
+    background-color: #fff;
+    padding-bottom: 30px;
+}
+
+.countdown {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    overflow: hidden;
+    transform: scale(2);
+    padding: 10px;
+    margin-top: 50px;
+
+}
+.counttext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    gap: 1.5rem;
+}
+.d{
+    font-size: 32px;
+    font-weight: 600;
+}
+#DD{
+    color: whitesmoke;
+}
+
+.container h2 {
+    color: yellow;
+}
+
+#clockobject1 {
+    height: 40px;
+    width: 200px;
+    background-color: #262525;
+    box-shadow: 0 0 2px 2px #262626;
+}
+
+.Time {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.Tday {
+    margin-top: 20px;
+}
+
+.Tday span {
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+button{
+    height: 28px !important;
+    width: 28px !important;
+    font-size: .8rem !important;
+}
+
+.d {
+    font-size: 12px;
+    font-weight: 600;
+}
+/* .submain3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+} */
+#subm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9rem !important;
+}
+.photo {
+    padding-top: 40px;   
+}
+.photo img {
+    height: 561px;
+    width: 430px;
+    
+        
+}
+
+.photoinfo {
+    padding-top: 40px;  
+}
+
+.photoinfo span {
+    padding-top: 40px;
+    text-align: start;
+    margin-top: 30px;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.photoinfo h1 {
+    text-align: start;
+    font-size: 40px;
+    color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.photoinfo p {
+    text-align: start;
+    font-size: 32px;
+    padding: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #000000;
+}
+
+.Component6 {
+    background-image: url(bg2.png);
+    padding-bottom: 30px;
+}
+
+.submain4 {
+    padding: 30px;
+}
+
+.text_big2 p {
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000000;
+    text-align: center;
+}
+
+#li {
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.mainbox1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+    margin-left: 2rem;
+
+
+}
+
+.box1 {
+    height: 163px;
+    width: 746px;
+    background-color: rgb(251, 250, 250);
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 8px 8px #dedddd;
+    margin-bottom: 20px;
+
+}
+
+.box2 {
+    height: 200px;
+    width: 800px !important;
+    background-color: rgb(251, 250, 250);
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 8px 8px #dedddd;
+}
+
+.mainbox2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+
+}
+
+.box3 {
+    height: 225px;
+    width: 850px;
+    background-color: rgb(251, 250, 250);
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 8px 8px #dedddd;
+}
+
+.box4 {
+    height: 230px;
+    width: 850px;
+    background-color: rgb(251, 250, 250);
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 8px 8px #dedddd;
+    margin-top: 15px;
+}
+
+.mainbox3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+
+}
+
+.box5 {
+    height: 240px;
+    width: 850px;
+    background-color: rgb(251, 250, 250);
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 8px 8px #dedddd;
+    margin-top: 10px;
+}
+
+.box6 {
+    height: 250px;
+    width: 850px;
+    background-color: rgb(251, 250, 250);
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 8px 8px #dedddd;
+    margin-top: 10px;
+}
+
+#maintext {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.qimg img {
+    height: 50px;
+    width: 50px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.qtext h1 {
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000000;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.qtext p {
+    font-size: 25px;
+    line-height: 39px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000000;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.Component7 {
+    background-image: url(dimg.png);
+    padding-bottom: 20px;
+}
+
+.countdown {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    overflow: hidden;
+    transform: scale(2);
+    padding: 10px;
+    margin-top: 50px;
+
+}
+
+.container h2 {
+    color: yellow;
+}
+
+#clockobject2 {
+    height: 40px;
+    width: 200px;
+    background-color: #262525;
+    box-shadow: 0 0 2px 2px #fff;
+}
+
+.Time {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.Tday {
+    margin-top: 20px;
+}
+
+#Tday span {
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.submain5 h1 {
+    color: #fff;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    /* padding: 20px; */
+    padding-top: 20px;
+}
+
+#lin {
+    margin-bottom: 10px;
+}
+
+#text_3 {
+    color: #fff;
+}
+
+#time2 {
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 44px;
+    margin-right: 2px;
+    padding-bottom: 40px;
+}
+
+.downtext {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+.downtext h2 span {
+    text-decoration: underline;
+}
+
+.Component8 {
+    background-color: #fff;
+}
+
+.downtext2 {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+
+}
+
+.downtext2 img {
+    height: 125px;
+    width: 300px;
+}
+#day1 span{
+    color: #fff;
+}
+.bottomtext {
+    text-align: center;
+}
+
+.bottomtext p {
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blue;
+    padding: 10px;
+}
+
+.bottomtext span {
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bottomtext p :hover {
+    text-decoration: underline;
+}
+
+
+.b1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+ button{
+    height: 30px;
+    width: 35px;
+    background-color: black;
+    border-radius: 3px;
+    border:0px 0px 2px 2px solid #efeded;
+    color: yellow;
+}
+.T{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    
+}
+.Td  span{
+    word-spacing: 10px;
+    color: rgb(244, 247, 244);
+    padding: 14px;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    word-spacing: 20px;
+    margin-left: 10px;
+}
+#Day span{
+    color: black;
+}
+
+@media only screen and (min-Width:767px) and (max-Width:1024px) {
+    .sub p {
+        font-size: 30px;
+    }
+
+    .sub span {
+        font-size: 16px;
+    }
+
+    .img img {
+        height: auto;
+        width: 100%;
+    }
+
+    .btn {
+        height: 13vw !important;
+        width: auto !important;
+    }
+
+    .btn h1 {
+        font-size: 30px;
+    }
+
+    .btn p {
+        font-size: 17px;
+    }
+
+    .text p {
+        font-size: 23px;
+    }
+    button{
+        border: none;
+        height: 34px !important;
+        width: 34px !important;
+        font-size: 1rem !important;
+}
+    }
+    .counttext{
+        margin-top: 1rem;
+    }
+    .d{
+        font-size: 15px;
+    }
+
+    #clock {
+        width: 100%;
+        height: 35px;
+    }
+
+    #clock h2 {
+        font-size: 20px;
+    }
+
+    #Tday span {
+        font-size: 13px;
+    }
+
+    .heading {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .heading h1 {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .heading_text p {
+        font-size: 25px;
+    }
+
+    .white_input {
+        height: 100%;
+        width: 100%;
+    }
+
+    .type1 p {
+        font-size: 25px;
+    }
+
+    .type1 b {
+        font-size: 15px;
+    }
+
+    .mainsub {
+        height: auto;
+        width: 100%;
+    }
+
+    .text_1 h2 {
+        font-size: 40px;
+    }
+
+    .text_1 p {
+        font-size: 25px;
+    }
+
+    .submain2 {
+        flex-direction: column;
+    }
+
+    /* .div1 {
+        height: 100%;
+        width: 100%;
+    } */
+
+    .h1tag {
+        font-size: 50px;
+    }
+
+    .div1 p {
+        font-size: 30px;
+    }
+
+    #input_icon {
+        font-size: 20px;
+    }
+
+    .bigtext h1 {
+        font-size: 43px;
+    }
+
+    .profile {
+        flex-direction: column;
+    }
+
+    .subpro1 img {
+        height: 12rem !important;
+        width: 13rem !important;
+    }
+
+    .subpro1 {
+        height: 550px !important;
+       width: 461px !important;
+    }
+
+    .subpro1 h1 {
+        font-size: 35px;
+    }
+
+    .subpro1 p {
+        font-size: 21px;
+    }
+
+    .text_big h2 {
+        font-size: 34px;
+    }
+
+    .text_big p {
+        font-size: 27px;
+    }
+
+    .submainchild1 {
+        flex-direction: column;
+    }
+
+    .rsign img {
+        height: 40px;
+        width: 40px;
+    }
+
+    .rtext h2 {
+        font-size: 30px !important;
+    }
+
+    .rtext p {
+        font-size: 24px !important;
+    }
+
+    .submainchild2 {
+        flex-direction: column;
+    }
+
+    .text_big1 h2 {
+        font-size: 34px;
+    }
+
+    .text_big1 p {
+        font-size: 27px;
+    }
+    .photo img {
+        height: 20rem;
+    width: 13rem;
+        margin: 1px;
+    }
+    #subm {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 9rem !important;
+    }
+    .photoinfo span {
+        font-size: 30px;
+    }
+
+    .photoinfo h1 {
+        font-size: 35px;
+    }
+
+    .photoinfo p {
+        font-size: 17px;
+    }
+
+    .submain4 {
+        padding: 0px;
+    }
+
+    .text_big2 p {
+        font-size: 25px;
+        padding-top: 10px;
+    }
+
+    .box1 {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .qimg img {
+        height: 20px;
+        width: 20px;
+    }
+
+    .qtext h1 {
+        font-size: 22px;
+        margin: 0px;
+        padding: 5px;
+    }
+
+    .qtext p {
+        font-size: 17px;
+        margin: 0px;
+        line-height: 28px;
+        padding: .5rem !important;
+    }
+
+    .submain5 {
+        font-size: 30px;
+    }
+    
+    .submain5 h1 {
+        color: #fff;
+        font-size: 27px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        /* padding: 20px; */
+        padding-top: 20px;
+    }
+    .downtext h2 {
+        font-size: 20px;
+    }
+
+    .downtext2 img {
+        height: 75px;
+        width: 150px;
+    }
+
+    .bottomtext p {
+        font-size: 19px;
+    }
+
+    .bottomtext span {
+        font-size: 16px;
+    }
+    .qtext p {
+        font-size: 15px !important;
+        line-height: 24px !important;
+    }
+   
+
+
+@media screen and (min-Width:480px) and (max-Width:767px) {
+    .sub{
+        padding: 20px;
+    }
+    .sub p {
+        font-size: 26px;
+    }
+
+    .sub p b {
+        font-size: 24px;
+    }
+
+    .sub span{
+        font-size: 15px;
+    }
+
+    .img img {
+        height: auto;
+        width: 100%;
+    }
+
+    .btn {
+            height: 19vw !important;
+            width: 85vw !important;
+            padding: 11px !important;
+            margin-top: 0rem !important;
+    }
+    .counttext {
+        margin-top: 1rem !important;
+    }
+
+    .btn h1 {
+        font-size: 21px;
+        
+    }
+
+    .btn p {
+        font-size: 19px;
+    }
+
+    .text p {
+        font-size: 17px;
+        margin: 0px;
+    }
+
+     button {
+     height: 30px;
+     width: 30px;
+     border: none;
+    }
+    .Td span{
+        font-size: 11px;
+    }
+
+
+    .heading {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .heading h1 {
+        font-size: 27px;
+        text-align: center;
+        margin-top: -2rem;
+    }
+
+    .heading_text p {
+        font-size: 17px;
+        width: 66dvw;
+    }
+
+    .white_input {
+        height: auto;
+        width: 100%;
+        padding: 10px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .type1 p {
+        font-size: 20px;
+        text-align: center;   
+    }
+    .photo {
+        padding-top: 15px;
+    }
+    #subm{
+        gap: 1rem !important;
+    }
+    
+    .type1 b {
+        font-size: 13px;
+        text-align: center;
+        
+    }
+    .mainsub {
+        height: auto;
+        width: 100%;
+    }
+    .text_1 h2 {
+        font-size: 25px;
+    }
+
+    .text_1 p {
+        font-size: 17px;
+    }
+
+    .submain2 {
+        flex-direction: column;
+    }
+
+    .div1 {
+        height: 100%;
+        width: 100%;
+    }
+
+    .h1tag {
+        font-size: 40px;
+    }
+
+    .div1 p {
+        font-size: 28px;
+    }
+
+    #input_icon {
+        font-size: 20px;
+    }
+    .bigtext h1 {
+        font-size: 28px;
+    }
+
+    .profile {
+        flex-direction: column;
+    }
+
+    .subpro1 img {
+        height: 18%;
+        width: 33%;
+        padding: 3px;
+    }
+
+    .subpro1 {
+        height: 428px !important;
+        width: 347px !important;
+    }
+
+    .subpro1 h1 {
+        font-size: 21px;
+    }
+
+    .subpro1 p {
+        font-size: 14px;
+    }
+    
+    .text_big h2 {
+        font-size: 19px;
+    }
+
+    .text_big p {
+        font-size: 17px;
+    }
+
+    .submainchild1 {
+        flex-direction: column;
+    }
+    #subtext{
+        align-items: center;
+    }
+
+    .rsign img {
+        height: 20px;
+        width: 20px;
+        margin-left: 0px;
+    }
+    .block1{
+        height: 490px;
+        width: 330px;
+        align-items: center;
+    }
+    .rtext{
+        padding-left: 0px;
+        padding-right: 0px;
+        
+    }
+    .rtext h2 {
+        font-size: 20px;
+    }
+
+    .rtext p {
+        font-size: 15px !important;
+    }
+   
+
+    .submainchild2 {
+        flex-direction: column;
+        margin-top: 0rem;
+    }
+    .text_big1{
+        padding: 5px;
+    }
+    .text_big1 h2 {
+        font-size: 21px;
+    }
+
+    .text_big1 p {
+        font-size: 17px;
+    }
+
+    .submain3 {
+        flex-direction: column;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-bottom: 10px;
+
+    }
+
+    .photo img {
+        height: 14rem;
+        width: 10rem;
+        margin: 1px;
+    }
+    .photoinfo{
+        height: auto;
+        width: 260px;
+        padding: 7px;
+        text-align: center;
+        
+    }
+    .photoinfo span {
+        font-size: 20px;
+        
+    }
+
+    .photoinfo h1 {
+        font-size: 23px;
+    }
+    .Component5 {
+        padding-bottom: 0px;
+    }
+    .photoinfo p {
+        font-size: 12px;
+        padding: 3px;
+        margin: 0px;
+    }
+    .submain4 {
+        padding: 0px;
+    }
+
+    .text_big2 p {
+        font-size: 16px;
+        padding-top: 28px;
+    }
+    .lineimg{
+        height: 5px;
+        width: 10px;
+    }
+    .mainbox1{
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .box1 {
+        margin-left: 0px;
+        margin-right: 0px;
+        height: 175px !important;
+        width:300px !important;
+    }
+    .box2 {
+        margin-left: 0px;
+        margin-right: 0px;
+        height: 200px !important;
+        width:300px !important;
+    }
+    .box3{
+        margin-left: 0px;
+        margin-right: 0px;
+        height: 230px !important;
+        width:300px !important;
+    }
+    .box4 {
+        margin-left: 0px;
+        margin-right: 0px;
+        height: 200px !important;
+        width: 300px !important; ;
+    }
+    .mainbox3{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .box5 {
+        margin-left: 0px;
+        margin-right: 0px;
+        height: 240px !important;
+        width: 300px !important; ;
+    }
+    .box6{
+        margin-left: 0px;
+        margin-right: 0px;
+        height: 230px !important;
+        width:300px !important ;
+    }
+    .qimg img {
+        height: 20px;
+        width: 20px;
+    }
+
+    .qtext h1 {
+        font-size: 20px;
+        padding: .5px !important;
+        
+    }
+
+    .qtext p {
+        font-size: 13px;
+        margin: 0px;
+        padding-bottom: 8px;
+        line-height: 24px;
+        margin-left: 0rem;
+        padding: .5px;
+        
+    }
+    
+    .submain5 h1 {
+        font-size: 22px;
+    }
+
+    .downtext h2 {
+        font-size: 15px;
+    }
+
+    .downtext2 img {
+        height: 69px;
+        width: 148px;
+    }
+
+    .bottomtext p {
+        font-size: 10px;
+    }
+
+    .bottomtext span {
+        font-size: 10px;
+    }
+}
+
+
+@media only screen  and (min-Width:280px) and (max-Width:480px){
+    .Component{
+        display: block;
+        position: sticky;
+    }
+    .sub{
+        padding: 20px;
+    }
+    .sub p {
+        font-size: 24px;
+    }
+
+    .sub p b {
+        font-size: 24px;
+    }
+
+    .sub span{
+        font-size: 15px;
+    }
+
+    .img img {
+        height: auto;
+        width: 100%;
+    }
+
+    .btn {
+            height: 23vw !important;
+            width: 88vw !important;
+            padding: 11px !important;
+            margin-top: 0rem !important;
+    }
+    .counttext {
+        margin-top: 1rem !important;
+    }
+
+    .btn h1 {
+        font-size: 15px;
+        
+    }
+
+    .btn p {
+        font-size: 12px;
+    }
+
+    .text p {
+        font-size: 15px;
+        margin: 0px;
+    }
+
+     button {
+     height: 25px;
+     width: 30px;
+     border: none;
+    }
+    .Td span{
+        font-size: 11px;
+    }
+
+
+    .heading {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .heading h1 {
+        font-size: 27px;
+        text-align: center;
+        margin-top: -2rem;
+    }
+
+    .heading_text p {
+        font-size: 16px;
+        width: 66dvw;
+    }
+
+    .white_input {
+        height: auto;
+        width: 100%;
+        padding: 10px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .type1 p {
+        font-size: 20px;
+        text-align: center;   
+    }
+    .photo {
+        padding-top: 15px;
+    }
+    #subm{
+        gap: 1rem !important;
+    }
+    
+    .type1 b {
+        font-size: 13px;
+        text-align: center;
+        
+    }
+    .mainsub {
+        height: auto;
+        width: 100%;
+    }
+    .text_1 h2 {
+        font-size: 25px;
+    }
+
+    .text_1 p {
+        font-size: 17px;
+    }
+
+    .submain2 {
+        flex-direction: column;
+    }
+
+    .div1 {
+        height: 100%;
+        width: 100%;
+    }
+
+    .h1tag {
+        font-size: 31px;
+    }
+    .d{
+        font-size: 11px;
+    }
+
+    .div1 p {
+        font-size: 25px;
+    }
+
+    #input_icon {
+        font-size: 14px;
+    }
+    .bigtext h1 {
+        font-size: 21px;
+    }
+
+    .profile {
+        flex-direction: column;
+    }
+
+    .subpro1 img {
+        height: 6rem !important;
+        width: 6rem !important;
+        padding: 3px;
+    }
+
+    .subpro1 {
+        height: 470px !important;
+       width: 254px !important;
+    }
+
+    .subpro1 h1 {
+        font-size: 21px;
+    }
+
+    .subpro1 p {
+        font-size: 14px;
+        line-height: 12px;
+        letter-spacing: 1px;
+    }
+    
+    .text_big h2 {
+        font-size: 19px;
+    }
+
+    .text_big p {
+        font-size: 17px;
+    }
+
+    .submainchild1 {
+        flex-direction: column;
+    }
+    #subtext{
+        align-items: center;
+    }
+
+    .rsign img {
+        height: 20px;
+        width: 20px;
+        margin-left: 0px;
+    }
+    .block1{
+        height: 410px;
+        width: 260px;
+        align-items: center;
+    }
+    .rtext{
+        padding-left: 0px;
+        padding-right: 0px;
+        
+    }
+    .rtext h2 {
+        font-size: 21px !important;
+    }
+    .rtext p {
+        font-size: 15px !important;
+    }
+   
+
+    .submainchild2 {
+        flex-direction: column;
+        margin-top: 0rem;
+    }
+    .text_big1{
+        padding: 5px;
+    }
+    .text_big1 h2 {
+        font-size: 21px;
+    }
+
+    .text_big1 p {
+        font-size: 17px;
+    }
+
+    .submain3 {
+        flex-direction: column;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-bottom: 10px;
+
+    }
+
+    .photo img {
+        height: 10rem;
+        width: 7rem;
+        margin: 1px;
+    }
+    .photoinfo{
+        height: auto;
+        width: 260px;
+        padding: 7px;
+        text-align: center;
+        
+    }
+    .photoinfo span {
+        font-size: 20px;
+        
+    }
+
+    .photoinfo h1 {
+        font-size: 23px;
+    }
+    .Component5 {
+        padding-bottom: 0px;
+    }
+    .photoinfo p {
+        font-size: 12px;
+        padding: 3px;
+        margin: 0px;
+    }
+    .submain4 {
+        padding: 0px;
+    }
+
+    .text_big2 p {
+        font-size: 16px;
+        padding-top: 8px;
+    }
+    .lineimg{
+        height: 5px;
+        width: 10px;
+    }
+    .mainbox1{
+        flex-direction: column;
+        padding: 10px;
+        margin-left: 0rem !important;
+    
+    }
+
+    .box1 {
+        margin-left: 0px;
+        margin-right: 0px;
+        height: 175px;
+        width: 250px !important;;
+    }
+    .box2 {
+        margin-left: 0px;
+        margin-right: 0px;
+        height: 200px;
+        width: 250px !important; ;
+    }
+    .box3{
+        margin-left: 0rem !important;
+        margin-right: 0rem !important;
+        height: 285px;
+        width:250px !important;
+    }
+    .box4 {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        height: 285px;
+        width: 250px !important; ;
+    }
+    .mainbox3{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .box5 {
+        margin-left: 0px;
+        margin-right: 0px;
+        height: 290px;
+        width:260px !important ;
+    }
+    .box6{
+        margin-left: 0px;
+        margin-right: 0px;
+        height: 285px;
+        width:260px !important ;
+    }
+    .qimg img {
+        height: 20px;
+        width: 20px;
+    }
+
+    .qtext h1 {
+        font-size: 20px;
+        padding: .5px !important;
+        
+    }
+
+    .qtext p {
+        font-size: 16px;
+        margin: 0px;
+        padding-bottom: 8px;
+        line-height: 24px;
+        margin-left: 0rem;
+        padding: .5px;
+        
+    }
+    
+    .submain5 h1 {
+        font-size: 22px;
+    }
+
+    .downtext h2 {
+        font-size: 15px;
+    }
+
+    .downtext2 img {
+        height: 69px;
+        width: 148px;
+    }
+
+    .bottomtext p {
+        font-size: 10px;
+    }
+
+    .bottomtext span {
+        font-size: 10px;
+    }
+}
